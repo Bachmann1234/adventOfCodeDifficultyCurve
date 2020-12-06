@@ -1,7 +1,7 @@
 declare module 'babar' {
   export type Options = {
-    caption: string;
-    color?: string;
+    caption?: string;
+    color?: 'yellow' | 'cyan' | 'white' | 'magenta' | 'green' | 'red' | 'grey' | 'blue' | 'ascii';
     grid?: string;
     width?: number;
     height?: number;
